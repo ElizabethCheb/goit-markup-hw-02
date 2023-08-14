@@ -253,7 +253,7 @@ body {
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32em;
+  letter-spacing: 0.02em;
 }
 .dark_futter {
   flex-shrink: 0;
