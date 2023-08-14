@@ -1,7 +1,8 @@
 body {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   background-color: #fff;
+  color: #434455;
 }
 .hero_image {
   width: 1440px;
