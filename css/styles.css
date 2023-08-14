@@ -244,7 +244,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2; /* 120% */
-  letter-spacing: 0.4em;
+  letter-spacing: 0.02em;
 }
 .text_card {
   color: var(--slate, #434455);
