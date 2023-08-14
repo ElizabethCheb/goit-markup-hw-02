@@ -5,30 +5,30 @@ body {
   color: #434455;
 }
 .hero_image {
-  width: 1440px;
-  height: 600px;
   flex-shrink: 0;
 }
 .top_line {
-  width: 1440px;
-  height: 72px;
   flex-shrink: 0;
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
 }
 .webstudio {
-  display: inline-flex;
-  height: 24px;
-  align-items: center;
   flex-shrink: 0;
   color: var(--iris, #4d5ae5);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1667; /* 116.667% */
-  letter-spacing: 0.54em;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.webstudio:hover {
+  color: #404bbf; /* Новий колір шрифту при наведенні */
+}
+
+/* Стиль для посилання при фокусі (focus) */
+.webstudio:focus {
+  color: #404bbf; /* Новий колір шрифту при фокусі (кліку) */
 }
 .studio {
   color: var(--navyblue, #2e2f42);
@@ -40,35 +40,32 @@ body {
   letter-spacing: 0.54em;
   text-transform: uppercase;
 }
-.menu_nav {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 40px;
-}
 .nav {
   color: var(--navyblue, #2e2f42);
-
-  /* Body Medium */
   font-family: Roboto;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32em;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.02em;
+}
+.main_address {
+  font-style: normal;
 }
 .address {
   color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32em;
+  letter-spacing: 0.02em;
 }
-.ul_adress {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 40px;
+.address:hover {
+  color: #404bbf;
+}
+.address:focus {
+  color: #404bbf;
 }
 .dark_bg {
-  width: 1440px;
-  height: 600px;
   flex-shrink: 0;
   background: var(--navyblue, #2e2f42);
   margin-top: 48px;
@@ -86,13 +83,7 @@ body {
 }
 
 .button_place {
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 4px;
   background: var(--iris, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   color: var(--white, #fff);
 
@@ -105,8 +96,6 @@ body {
   letter-spacing: 0.64em;
 }
 .our_preferences {
-  width: 1128px;
-  height: 104px;
   flex-shrink: 0;
 }
 .preferences_title {
@@ -131,21 +120,9 @@ body {
   line-height: 1.5; /* 150% expressed as a unitless multiplier */
   letter-spacing: 0.32em;
 }
-.ul_preferences {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 24px;
-}
 .our_team {
-  width: 1440px;
-  height: 732px;
   flex-shrink: 0;
   background: var(--cloud, #f4f4fd);
-}
-.place_for_cart {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 24px;
 }
 .team_title {
   color: var(--navyblue, #2e2f42);
@@ -160,56 +137,23 @@ body {
   letter-spacing: 0.72em;
 }
 .container1 {
-  display: inline-flex;
   padding-bottom: 0px;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 32px;
-  border-radius: 0px 0px 4px 4px;
   background: var(--white, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .container2 {
-  display: inline-flex;
   padding-bottom: 0px;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 32px;
-  border-radius: 0px 0px 4px 4px;
   background: var(--white, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .container3 {
-  display: inline-flex;
   padding-bottom: 0px;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 32px;
-  border-radius: 0px 0px 4px 4px;
   background: var(--white, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .container4 {
-  display: inline-flex;
-  padding-bottom: 0px;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 32px;
-  border-radius: 0px 0px 4px 4px;
   background: var(--white, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .photo_of_team {
   background: url(<path-to-image>),
@@ -238,19 +182,11 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32em;
-  gap: 32px;
 }
 .table {
-  display: flex;
-  width: 232px;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 8px;
 }
 .section3 {
-  width: 1128px;
-  height: 1000px;
   flex-shrink: 0;
 }
 .title_section3 {
@@ -268,64 +204,28 @@ body {
 }
 
 .row1 {
-  width: 1128px;
-  height: 420px;
   flex-shrink: 0;
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 24px;
 }
 .row2 {
-  width: 1128px;
-  height: 420px;
   flex-shrink: 0;
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 24px;
 }
 .project_card1 {
-  display: flex;
-  width: 360px;
-  height: 420px;
   padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
   flex-shrink: 0;
-  border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
 }
 .project_card2 {
-  display: flex;
-  width: 360px;
-  height: 420px;
   padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
   flex-shrink: 0;
-  border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
 }
 .project_card3 {
-  display: flex;
-  width: 360px;
-  height: 420px;
   padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
   flex-shrink: 0;
-  border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
 }
 .card_content {
-  display: flex;
-  padding: 0px 16px;
-  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  gap: 8px;
   align-self: stretch;
 }
 .name_card {
@@ -348,16 +248,10 @@ body {
   letter-spacing: 0.32em;
 }
 .dark_futter {
-  width: 1440px;
-  height: 312px;
   flex-shrink: 0;
   background: var(--navyblue, #2e2f42);
 }
 .white_studio {
-  display: flex;
-  width: 71px;
-  height: 21px;
-  flex-direction: column;
   justify-content: center;
   color: var(--cloud, #f4f4fd);
   font-family: Raleway;
@@ -369,7 +263,6 @@ body {
   text-transform: uppercase;
 }
 .text_futter {
-  width: 264px;
   color: var(--cloud, #f4f4fd);
 
   /* Body */
