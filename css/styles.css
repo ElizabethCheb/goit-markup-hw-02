@@ -88,6 +88,7 @@ body {
   letter-spacing: 0.02em;
 }
 .button {
+  color: #ffffff;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
@@ -127,7 +128,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2; /* 120% */
-  letter-spacing: 0.4em;
+  letter-spacing: 0.02em;
 }
 .preferences {
   color: var(--slate, #434455);
@@ -138,7 +139,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% expressed as a unitless multiplier */
-  letter-spacing: 0.32em;
+  letter-spacing: 0.02em;
 }
 .our_team {
   flex-shrink: 0;
@@ -153,25 +154,12 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11111; /* 111.111% */
-  letter-spacing: 0.72em;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
-.container1 {
+.container {
   padding-bottom: 0px;
-  justify-content: center;
-  background: var(--white, #fff);
-}
-.container2 {
-  padding-bottom: 0px;
-  justify-content: center;
-  background: var(--white, #fff);
-}
-.container3 {
-  padding-bottom: 0px;
-  justify-content: center;
-  background: var(--white, #fff);
-}
-.container4 {
   justify-content: center;
   background: var(--white, #fff);
 }
@@ -189,7 +177,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2; /* 120% */
-  letter-spacing: 0.4em;
+  letter-spacing: 0.02em;
 }
 .position {
   color: var(--slate, #434455);
@@ -201,7 +189,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32em;
+  letter-spacing: 0.02em;
 }
 .table {
   justify-content: center;
@@ -218,8 +206,8 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11111; /* 111.111% */
-  letter-spacing: 0.72em;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
