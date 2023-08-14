@@ -1,120 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li>
-            <a href="">Studio</a>
-          </li>
-          <li>
-            <a href="">Portfolio</a>
-          </li>
-          <li>
-            <a href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
-    </header>
-    <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+    <section class="hero_image">
+    <header class="top_line">
+  <nav >
+    <a class="webstudio" href="./index.html">
+      <span class="web">Web</span>
+      <span class="studio">Studio</span>
+    </a>
+    <ul class="menu_nav">
+      <li>
+        <a class="nav" href="">Studio</a>
+      </li>
+      <li>
+        <a class="nav" href="#our_portfolio">Portfolio</a>
+      </li>
+      <li>
+        <a class="nav" href="">Contacts</a>
+      </li>
+    </ul>
+  </nav>
+  <address >
+    <ul class="ul_adress">
+      <li>
+        <a class="address" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      </li>
+      <li>
+        <a class="address" href="tel:+110001111111">+11 (000) 111-11-11</a>
+      </li>
+    </ul>
+  </address>
+</header>
+      <section class="dark_bg">
+        <h1 class="main_title">Effective Solutions for Your Business</h1> 
+        <span class="button_place">
+        <button class="button" type="button">Order Service</button>
+        </span>
+        </section>
       </section>
-      <section>
+      <section class="our_preferences">
         <h2>Our Preferences</h2>
-        <ul>
+        <ul class="ul_preferences">
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="preferences_title" >Strategy</h3>
+            <p class="preferences">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="preferences_title" >Punctuality</h3>
+            <p class="preferences">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="preferences_title" >Diligence</h3>
+            <p class="preferences">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="preferences_title" >Technologies</h3>
+            <p class="preferences">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img
+      <section class="our_team">
+        <h2 class="team_title">Our Team</h2>
+        <ul class="place_for_cart">
+          <li class="container1">
+            <img class="photo_of_team"
               src="./images/man1.jpg"
               alt="Mark Guerro Product Designer"
               width="264"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <span class="table">
+            <h3 class="name">Mark Guerrero</h3>
+            <p class="position">Product Designer</p>
+            </span>
           </li>
-          <li>
-            <img
+          <li class="container2">
+            <img class="photo_of_team"
               src="./images/man2.jpg"
               alt="Tom Ford Frontend Developer"
               width="264"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <span class="table">
+            <h3 class="name">Tom Ford</h3>
+            <p class="position">Frontend Developer</p>
+            </span>
           </li>
-          <li>
-            <img
+          <li class="container3">
+            <img class="photo_of_team"
               src="./images/woman3.jpg"
               alt="Camila Garcia Marketing"
               width="264"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <span class="table">
+            <h3 class="name">Camila Garcia</h3>
+            <p class="position">Marketing</p>
+            </span>
           </li>
-          <li>
-            <img
+          <li class="container4">
+            <img class="photo_of_team"
               src="./images/man4.jpg"
               alt="Daniel Wilson UI Designer"
               width="264"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <span class="table">
+            <h3 class="name">Daniel Wilson</h3>
+            <p class="position">UI Designer</p>
+            </span>
           </li>
         </ul>
       </section>
+      <section class="section3">
+        <h2 class="title_section3" id="our_portfolio">Our Portfolio</h2>
+        <ul>
+          <span class="row1">
+          <li class="project_card1">
+            <img src="./images/Banking_App.jpg" 
+            alt="Banking App"
+            width="360">
+            <span class="card_content" >
+            <h3 class="name_card">Banking App</h3>
+            <p> class="text_card" App</p>
+            </span>
+          </li>
+          <li class="project_card2">
+            <img src="./images/Cashless_Payment.jpg" 
+            alt="Cashless Payment" 
+            width="360">
+            <span class="card_content" >
+            <h3 class="name_card">Cashless Payment</h3>
+            <p class="text_card" >Marketing</p>
+            </span>
+          </li>
+          <li class="project_card3">
+            <img src="./images/Medidation_App.jpg" 
+            alt="Medidation App"
+            width="360">
+            <span class="card_content" >
+            <h3 class="name_card">Medidation App</h3>
+            <p class="text_card" >App</p>
+            </span>
+          </li>
+          </span>
+          <span class="row2">
+          <li class="project_card1">
+            <img src="./images/Taxi_Service.jpg" 
+            alt="Taxi Service"
+            width="360">
+            <span class="card_content" >
+            <h3 class="name_card">Taxi Service</h3>
+            <p class="text_card" >Marketing</p>
+            </span>
+          </li>
+          <li class="project_card2">
+            <img src="./images/Screen_illustrations.jpg" 
+            alt="Screen illustrations" 
+            width="360">
+            <span class="card_content" >
+            <h3 class="name_card">Screen illustrations</h3>
+            <p class="text_card" >Design</p>
+            </span>
+          </li>
+          <li class="project_card3">
+            <img src="./images/Online_Courses.jpg" 
+            alt="Online Courses" 
+            width="360">
+            <span class="card_content" >
+            <h3 class="name_card">Online Courses</h3>
+            <p class="text_card" >Marketing</p>
+            </span>
+          </li>
+          </span>
+        </ul>
+      </section>
     </main>
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="dark_futter">
+      <a class="webstudio" href="./index.html"><span class="web">Web</span><span class="white_studio">Studio</span></a>
+      <p class="text_futter">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
