@@ -4,9 +4,6 @@ body {
   background-color: #fff;
   color: #434455;
 }
-.hero_image {
-  flex-shrink: 0;
-}
 .top_line {
   flex-shrink: 0;
   background: var(--white, #fff);
